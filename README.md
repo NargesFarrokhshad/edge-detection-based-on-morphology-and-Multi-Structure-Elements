@@ -1,2 +1,6 @@
 # edge-detection-based-on-morphology-and-Multi-Structure-Elements
-لبه یابی تصاویر MRI مغز با روش مبتنی بر بازسازی مورفولوژی وعناصر ساختاری چندگانه
+
+This repository contains a matlab code for edge detection of MRI image with morphology and Multi Structure Elements
+
+Edge detection is a fundamental pre-processing step in medical image processing such as brain tumor recognition or human organs detection. There are various edge detection method that are often sensitive to noise and not detect edges properly. Morphological based methods are often better with noise; However, single structure elements morphological algorithms are difficult to detect complex edges because they are only sensitive to image edge which has the same direction of structure elements. In this repository, we introduce traditional edge detection algorithms based on first order derivatives and second order derivatives and morphological operators and then we propose a novel edge detection algorithm based on multi-structure elements morphology and morphological reconstruction with an image fusion method that detect edges well in Brain MRI images in present of high salt and pepper noise. The exprimental result showed that proposed algorithm can effectively eliminate the image noise and detect edge informations.
+
